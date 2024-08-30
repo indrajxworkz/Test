@@ -1,0 +1,27 @@
+
+
+TEST - 30/08/2024
+
+Polymorphism - It consists of one or more forms of same class . It has 2 types - compile time polymorphism and run time polymorphism 
+
+for an example -  class tea{
+						
+						public int teaId;
+						public String teaName;
+						
+						public void getTeaId(int teaId){
+						this.teaId = teaId;
+						}
+
+					}
+					
+					
+
+Inheritance it inherits the properties of one class  to another class such as Parent class/ super class/ base class 
+				to Child class/sub class/ derived class.
+				
+				It uses the extends keyword
+using "extends" keyword the child or sub or the derived class can have all the methods and sub classes in it which can be overridden by @override this can change the behaviour.
+
+				
+ Encapsulation is the object-oriented programming (OOP) concept of bundling data (attributes) and methods (functions) that operate on that data into a single unit, typically a class. It restricts direct access to some of an object's components, protecting the internal state and providing a controlled interface for interacting with that data. This is achieved through access modifiers (e.g., private, protected, public) that define which parts of an object can be accessed or modified from outside its class. In order to modify or access it outside the class we can use setter and getter methods to initialize the data and also access it anywhere outside the determined class.
